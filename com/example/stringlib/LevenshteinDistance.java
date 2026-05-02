@@ -9,6 +9,9 @@ public class LevenshteinDistance {
      * Возвращает минимальное количество операций вставки, удаления, замены символа,
      * необходимых для превращения строки a в b.
      */
+    /**
+     * Версия с исправлениями безопасности (ветка fix)
+     */
     public static int compute(CharSequence a, CharSequence b) {
         if (a == null || b == null)
             throw new IllegalArgumentException("Аргументы не должны быть null");
