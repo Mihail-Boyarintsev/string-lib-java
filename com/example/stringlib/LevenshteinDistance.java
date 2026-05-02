@@ -10,7 +10,7 @@ public class LevenshteinDistance {
      * необходимых для превращения строки a в b.
      */
     /**
-     * Оптимизированная версия (ветка optimize)
+     * Оптимизированная версия; также учтены исправлениям безопасности
      */
     public static int compute(CharSequence a, CharSequence b) {
         if (a == null || b == null)
