@@ -54,4 +54,11 @@ public class KMPAlgorithm {
         }
         return occurrences;
     }
+
+    /**
+     * Возвращает количество вхождений pattern в text.
+     */
+    public static int countOccurrences(String text, String pattern) {
+        return search(text, pattern).size();
+    }
 }
